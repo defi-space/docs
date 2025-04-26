@@ -6,6 +6,8 @@ const math = require("remark-math");
 const katex = require("rehype-katex");
 require("dotenv").config();
 
+
+const isDeployPreview = process.env.DEPLOY === 'true';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
@@ -17,7 +19,7 @@ const config: Config = {
   url: "https://defi-space.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: isDeployPreview ? '/docs/' : '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
