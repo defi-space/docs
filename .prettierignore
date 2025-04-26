@@ -1,0 +1,4 @@
+*.md
+*.mdc
+.env
+.env.*

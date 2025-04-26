@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Graphene [GPH] Token Icon -->
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="16" cy="16" r="15" fill="#F36525" stroke="#e25f23" stroke-width="2"/>
+  <path d="M10 12H22L20 14H8L10 12Z" fill="white"/>
+  <path d="M11 16H23L21 18H9L11 16Z" fill="white"/>
+  <path d="M12 20H24L22 22H10L12 20Z" fill="white"/>
+</svg>
