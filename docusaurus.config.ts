@@ -22,7 +22,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "defi-space", // Usually your GitHub org/user name.
-  projectName: "ds-docs", // Usually your repo name.
+  projectName: "docs", // Usually your repo name.
 
   // Development configuration
   onBrokenLinks: "throw",
