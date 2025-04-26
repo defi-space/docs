@@ -29,11 +29,11 @@ const config: Config = {
   onBrokenMarkdownLinks: "throw",
 
   // Development server configuration
-  customFields: {
-    projectConfig: {
-      port: 3371,
-    },
-  },
+  // customFields: {
+  //   projectConfig: {
+  //     port: 3371,
+  //   },
+  // },
 
   // Add markdown theme for Mermaid support
 
