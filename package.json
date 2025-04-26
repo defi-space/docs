@@ -1,0 +1,64 @@
+{
+  "name": "ds-docs",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "bun@1.2.10",
+  "engines": {
+    "node": ">=20.0.0",
+    "bun": ">=1.2.10"
+  },
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start --port 3371",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "types": "tsc",
+    "format": "prettier --write .",
+    "format-check": "prettier --check",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.7.0",
+    "@docusaurus/eslint-plugin": "^3.7.0",
+    "@docusaurus/plugin-google-tag-manager": "^3.7.0",
+    "@docusaurus/preset-classic": "3.7.0",
+    "@docusaurus/theme-mermaid": "^3.7.0",
+    "@mdx-js/react": "3.1.0",
+    "dotenv": "16.5.0",
+    "howler": "^2.2.4",
+    "prism-react-renderer": "2.4.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "rehype-katex": "7.0.1",
+    "remark-math": "6.0.0"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "3.7.0",
+    "@docusaurus/tsconfig": "3.7.0",
+    "@docusaurus/types": "3.7.0",
+    "@types/howler": "^2.2.12",
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@typescript-eslint/parser": "^8.31.0",
+    "prettier": "^3.5.3",
+    "typescript": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
+  }
+}

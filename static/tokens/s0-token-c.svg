@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Carbon [C] Token Icon -->
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="16" cy="16" r="15" fill="#757575" stroke="none" stroke-width="2"/>
+
+  <!-- Hexagon Path -->
+  <path d="M16 11L20.6 13.5V18.5L16 21L11.4 18.5V13.5L16 11Z" stroke="white" stroke-width="1.5"/>
+</svg>

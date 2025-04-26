@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- wattDollar [wD] Token Icon -->
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="16" cy="16" r="15" fill="#F7EE49" stroke="#1c1c1c" stroke-width="2"/>
+  <path d="M19 8L10 16H16L13 24L22 16H16L19 8Z" fill="black"/>
+</svg> 
