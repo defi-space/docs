@@ -8,17 +8,13 @@
     "bun": ">=1.2.10"
   },
   "scripts": {
-    "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "start:dev": "docusaurus start --port 3371",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "predeploy": "DEPLOY=true bun run build",
-    "deploy": "USE_SSH=true docusaurus deploy",
+    "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
-    "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids",
     "types": "tsc",
     "format": "prettier --write .",
     "format-check": "prettier --check",
