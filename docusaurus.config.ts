@@ -68,13 +68,13 @@ const config: Config = {
   ],
 
   themeConfig: {
-    announcementBar: {
-      id: "announcement-bar",
-      content: "🅳🅾🅲🆂 🆂🆄🅱🅹🅴🅲🆃 🆃🅾 🅲🅷🅰🅽🅶🅴 • 🆄🅿🅳🅰🆃🅴🆂 🆀🆄🅴🆄🅴🅳 🅵🅾🆁 🅽🅴🆇🆃 🆆🅴🅴🅺",
-      backgroundColor: "#1C1C1D",
-      textColor: "#ffffff",
-      isCloseable: false,
-    },
+    // announcementBar: {
+    //   id: "announcement-bar",
+    //   content: "🅳🅾🅲🆂 🆂🆄🅱🅹🅴🅲🆃 🆃🅾 🅲🅷🅰🅽🅶🅴 • 🆄🅿🅳🅰🆃🅴🆂 🆀🆄🅴🆄🅴🅳 🅵🅾🆁 🅽🅴🆇🆃 🆆🅴🅴🅺",
+    //   backgroundColor: "#1C1C1D",
+    //   textColor: "#ffffff",
+    //   isCloseable: false,
+    // },
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     // Add Mermaid configuration
