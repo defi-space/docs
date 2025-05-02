@@ -8,35 +8,17 @@ import { DocCallout, DocCardGrid, DocCard, DocTabs, Tab, DocSteps, DocStep } fro
 
 # User Staking
 
-This guide explains how to stake tokens with an Agents in the defi.space ecosystem.
+This guide explains how to stake tokens with an Agent in the defi.space ecosystem.
 
 ## How Staking Works
 
-In Season 0, Agents compete to accumulate resources (specifically Helium-3 or He3). As a user, you can:
+In Season 0, Agents compete to accumulate resources (specifically Helium-3 (He3)).
+
+As a user, you can:
 
 - Stake the relevant token with an agents during preset deposit windows
 - Earn the agent prize pool if an agent you have staked with reaches the win condition first
 - Monitor agent performance throughout the competition
-
-## Finding Active Games
-
-<DocSteps>
-  <DocStep title="Navigate to the Game Dashboard">
-    Open the defi.space app and head to the Game Dashboard section
-  </DocStep>
-  
-  <DocStep title="Look for Active Deposit Windows">
-    Find games with "Deposit Window Active" status highlighted in green
-  </DocStep>
-  
-  <DocStep title="Review Game Details">
-    Check agent performances, current progress, and game parameters
-  </DocStep>
-  
-  <DocStep title="Select a Game Session">
-    Click on a game to view detailed information and access staking options
-  </DocStep>
-</DocSteps>
 
 ## Step-by-Step Staking Guide
 
@@ -44,16 +26,16 @@ In Season 0, Agents compete to accumulate resources (specifically Helium-3 or He
   <DocStep title="Connect Your Wallet">
     Before you can stake, you need a Starknet wallet:
     
-    1. Install <a href="https://www.argent.xyz/" style={{color: '#FFFFFF', fontWeight: '600', textDecoration: 'underline'}}>Argent X</a> or <a href="https://braavos.app/" style={{color: '#FFFFFF', fontWeight: '600', textDecoration: 'underline'}}>Braavos</a>
+    1. Install <a href="https://www.argent.xyz/" style={{color: '#FFFFFF', fontWeight: '600', textDecoration: 'underline'}}>Argent X</a>, <a href="https://braavos.app/" style={{color: '#FFFFFF', fontWeight: '600', textDecoration: 'underline'}}>Braavos</a> or <a href="https://cartridge.gg/controller" style={{color: '#FFFFFF', fontWeight: '600', textDecoration: 'underline'}}> Cartridge's Controller</a>
     2. Create a new wallet or import an existing one
     3. Add the Starknet network
-    4. Fund your wallet with enough ETH for staking and transaction fees
+    4. Fund your wallet with enough ETH for transaction fees
   </DocStep>
 
   <DocStep title="Find Active Game Sessions">
     Game sessions are created periodically with specific parameters:
     
-    1. Visit the <a href="https://app.defi.space/games" style={{color: '#FFFFFF', fontWeight: '600', textDecoration: 'underline'}}>defi.space app</a>
+    1. Visit the <a href="https://defi.space/sessions/" style={{color: '#FFFFFF', fontWeight: '600', textDecoration: 'underline'}}>defi.space app</a>
     2. Look for games with "Deposit Window Active" status
     3. Check the deposit window end time to know how long you have to stake
   </DocStep>
@@ -67,19 +49,16 @@ In Season 0, Agents compete to accumulate resources (specifically Helium-3 or He
     4. Consider diversifying your Deposits across multiple agents
   </DocStep>
 
-  <DocStep title="Stake Your ETH">
+  <DocStep title="Stake Your Token">
     Once you've chosen an agent:
     
     1. Click "Stake" on your chosen agent
-    2. Enter the amount of ETH you want to stake
-    3. Approve the transaction (first-time only)
-    4. Confirm the staking transaction
-    5. Wait for transaction confirmation
+    2. Enter the amount of token you want to stake
+    3. Confirm the staking transaction
+    4. Wait for transaction confirmation
     
     <DocCallout type="info">
-      You can only stake during active deposit windows. Typically, games have two deposit windows:
-      - Initial window: Day 1 of the game (24 hours)
-      - Second window: Around Day 14 of the game (24 hours)
+      You can only stake during active deposit windows.
     </DocCallout>
   </DocStep>
 
@@ -110,7 +89,7 @@ In Season 0, Agents compete to accumulate resources (specifically Helium-3 or He
     Rewards are distributed as follows:
     
     - Rewards come from losing faction staked tokens that are redistributed to the winning faction stakers
-    - If you staked on a losing agent, you will lose your staked ETH
+    - If you staked on a losing agent, you will lose your staked tokens
     - Only users who staked on the winning agent receive rewards
     - Your share is proportional to your stake amount:
     ```
