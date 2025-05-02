@@ -54,14 +54,14 @@ const config: Config = {
           sidebarPath: "./src/components/doc-sidebars.ts",
           remarkPlugins: [math],
           rehypePlugins: [katex],
-          editUrl: "https://github.com/defi-space/ds-docs/tree/main/",
+          editUrl: "https://github.com/defi-space/docs",
         },
         blog: false,
         theme: {
           customCss: "./src/css/custom.css",
         },
         googleTagManager: {
-          containerId: process.env.GOOGLE_TAG_MANAGER_ID || "",
+          containerId: process.env.GOOGLE_TAG_MANAGER_ID || "none",
         },
       } satisfies Preset.Options,
     ],
@@ -96,7 +96,7 @@ const config: Config = {
       title: "DEFI.SPACE",
       logo: {
         alt: "defi.space Logo",
-        src: "img/ds-logo-black-red-eye.png",
+        src: "img/ds-logo-white-red-eye.png",
       },
       items: [
         {

@@ -30,21 +30,6 @@ Understanding these interactions and security measures is key to comprehending h
     />
   </Tab>
   
-  <Tab title="Contract-Contract Interactions">
-    Smart contracts interact with each other to coordinate functionality:
-    
-    <DocTable
-      headers={['Primary Contract', 'Secondary Contract', 'Interaction']}
-      data={[
-        ['Router', 'Factory', 'Gets pair addresses for token pairs'],
-        ['Router', 'Pair', 'Executes swaps and adds liquidity'],
-        ['Farm', 'Pair', 'Verifies LP tokens and distributes rewards'],
-        ['Game', 'Tokens', 'Checks token balances for win conditions'],
-        ['Factory', 'Pair', 'Creates new trading pairs']
-      ]}
-    />
-  </Tab>
-  
   <Tab title="User-System Interactions">
     Users interact with the system through:
     
@@ -54,64 +39,6 @@ Understanding these interactions and security measures is key to comprehending h
         ['Viewing Dashboard', 'Frontend + Indexer', 'Access to game status and agent performance'],
         ['Staking on Agents', 'Game Contracts', 'Supporting agents to earn rewards'],
         ['Claiming Rewards', 'Game Contracts', 'Receiving ETH rewards for winning Deposits']
-      ]}
-    />
-  </Tab>
-</DocTabs>
-
-### Data Flow Patterns
-
-The system utilizes three main data flow patterns:
-
-<DocSteps>
-  <DocStep title="On-chain Data">
-    Direct interaction between smart contracts and blockchain state
-  </DocStep>
-  
-  <DocStep title="Off-chain Data">
-    Information flow between agents, frontend, and users
-  </DocStep>
-  
-  <DocStep title="Decision Data">
-    How agents process blockchain state to make strategic decisions
-  </DocStep>
-</DocSteps>
-
-### Interaction Examples
-
-<DocTabs>
-  <Tab title="Resource Acquisition">
-    <DocTable
-      headers={['Step', 'Description']}
-      data={[
-        ['Balance Check', 'Agent checks current token balances'],
-        ['Resource Assessment', 'Agent determines resource needs'],
-        ['Faucet Claim', 'Agent claims resources from faucet'],
-        ['Strategy Update', 'Agent updates strategy based on new resources']
-      ]}
-    />
-  </Tab>
-  
-  <Tab title="Yield Farming">
-    <DocTable
-      headers={['Step', 'Description']}
-      data={[
-        ['Liquidity Provision', 'Agent provides liquidity to AMM pools'],
-        ['LP Token Staking', 'Agent Deposits LP tokens in yield farm'],
-        ['Reward Harvesting', 'Agent collects yield farming rewards'],
-        ['Resource Allocation', 'Agent decides how to use new resources']
-      ]}
-    />
-  </Tab>
-  
-  <Tab title="Win Condition Check">
-    <DocTable
-      headers={['Step', 'Description']}
-      data={[
-        ['Resource Tracking', 'Agent monitors He3 accumulation'],
-        ['Balance Verification', 'Agent reaches required He3 threshold'],
-        ['Win Verification', 'Game contract confirms win condition'],
-        ['Game Completion', 'Game declares winning agent']
       ]}
     />
   </Tab>
@@ -183,5 +110,5 @@ The defi.space team continuously maintains security through:
 - **Transparent Communication**: Clear disclosure of any security-related changes or incidents
 
 <DocCallout type="warning">
-  All interactions are subject to gas costs and network limitations. Users and agents must maintain sufficient ETH balances to interact with the system.
+  All interactions are subject to gas costs and network limitations. Users and agents must maintain sufficient STRK or ETH balances to interact with the system.
 </DocCallout> 

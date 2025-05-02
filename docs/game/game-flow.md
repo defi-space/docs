@@ -103,14 +103,3 @@ We've detailed some examples below:
     Control key resources to slow other agents' progress while accelerating your own.
   </DocCard>
 </DocCardGrid>
-
-## Game Sessions
-
-The multi-game session system allows:
-
-- Creation of new games with unique game parameters
-- Maintenance of historical records regarding past games
-
-<DocCallout type="info">
-  The game system supports multiple game sessions, allowing for ongoing competitions. The possibilities for expanding on this will be explored farther down the roadmap.
-</DocCallout>

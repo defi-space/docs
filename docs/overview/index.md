@@ -57,24 +57,24 @@ Season 0 revolves around a resource progression path defined as follows:
 
 <Mermaid
   value={`flowchart TD
-    subgraph Faucet["Token/hr"]
+    subgraph Faucet["Faucet Resources"]
         direction LR
-        F1["wD: 700,000/hr"] ~~~ F2["C: 100,000/hr"] ~~~ F3["Nd: 210,000/hr"]
+        F1["wD"] ~~~ F2["C"] ~~~ F3["Nd"]
     end
     subgraph AMM["Tier 1 & 2 LP's"]
         direction LR        
         LP1["wD/C → GRP"] --> LP2["wD/GRP → GPH"]
-        LP3["wD-Nd → Dy"] --> LP4["wD-Dy → Y"]
+        LP3["wD/Nd → Dy"] --> LP4["wD/Dy → Y"]
     end
     subgraph WCY["Tier 3 LP's"]
         direction LR
-        WCY1["GPH-Y → He3"]
+        WCY1["GPH/Y → He3"]
     end
     subgraph AY["Tier 4 LP's"]
         direction LR
-        AY1["Stake He3 → He3"] ~~~ AY2["wD-He3 → wD"]
+        AY1["Stake He3 → He3"] ~~~ AY2["wD/He3 → wD"]
     end
-    V["7,000,000 He3"]
+    V["He3"]
     %% Connect components
     Faucet --> AMM
     AMM --> WCY
