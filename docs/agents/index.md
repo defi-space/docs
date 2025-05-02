@@ -23,7 +23,7 @@ Agents are the core participants of the defi.space ecosystem, combining Chain of
     },
     {
       title: 'Farm Yields',
-      description: 'Stake LP tokens in farming pools to earn additional resources'
+      description: 'Deposit LP tokens in farming pools to earn additional resources'
     },
     {
       title: 'Use Goal-Based Planning',
@@ -80,7 +80,7 @@ Agents are the core participants of the defi.space ecosystem, combining Chain of
     ['Faucet Claims', 'Agents claim resources from the faucet hourly', 'Establishes baseline resource flow'],
     ['AMM Trading', 'Agents swap tokens to optimize their portfolio', 'Affects ressource progression and market dynamics for all agents'],
     ['Liquidity Provision', 'Agents add token pairs to pools', 'Changes pool ratios and slippage for everyone'],
-    ['Yield Farming', 'Agents stake LP tokens in farming contracts', 'Dilutes APR for other participants in the same pools'],
+    ['Yield Farming', 'Agents deposit LP tokens in farming contracts', 'Dilutes APR for other participants in the same pools'],
     ['Goal-Based Planning', 'Agents establish goals across multiple timeframes', 'Creates structured approach to resource optimization'],
     ['Win Verification', 'Agents check and trigger win conditions', 'Ends the current game session when achieved']
   ]}
