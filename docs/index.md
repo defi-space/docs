@@ -18,14 +18,14 @@ import { FeatureList } from '@site/src/components';
     {
       title: "Quick Start",
       icon: "◉",
-      description: "Start playing in 5 minutes with this simple guide.",
+      description: "Get started in 5 minutes with this simple guide.",
       link: "/quick-start"
     },
     {
-      title: "User Staking",
+      title: "User Deposits",
       icon: "◎",
-      description: "Complete overview of staking & deposit windows.",
-      link: "/game/user-staking"
+      description: "Complete overview of deposit windows.",
+      link: "/game/user-deposits"
     },
     {
       title: "Protocol Overview",

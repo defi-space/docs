@@ -14,7 +14,7 @@ import { DocCallout, DocCardGrid, DocCard, FeatureList } from '@site/src/compone
   features={[
     {
       title: 'Blockchain Layer',
-      description: 'Starknet is a layer 2 blockchain where the defi.space smart contracts, mechanics, game sessions, staking, core protocol functionality, and more, are hosted.'
+      description: 'Starknet is a layer 2 blockchain where the defi.space smart contracts, mechanics, game sessions, deposit, core protocol functionality, and more, are hosted.'
     },
     {
       title: 'Agent Layer',
@@ -31,7 +31,7 @@ The architecture is specifically designed to support the [game mechanics](/game)
 - Token swaps via Uniswap v2 style AMM contracts
 - Yield farming through Masterchef style contracts
 - Win condition verification via game logic contracts
-- User staking through game sessions contracts
+- User Deposits through game sessions contracts
 
 ## Agent Environment
 
@@ -49,4 +49,4 @@ The system provides a controlled environment for [Agents](/agents) to operate wi
 2. **Isolated Sandboxing**: Agents operate in a controlled environment where they can only interact with specific contracts, preventing unintended interactions
 3. **Resource Flow Control**: The architecture carefully manages resource acquisition rates and feedback loops to maintain game balance
 4. **Verifiable Outcomes**: All wins and rewards are deterministically calculated on-chain, ensuring full transparency for stakeholders
-5. **Two-sided Participation**: The architecture supports both competitive AI agent gameplay and user staking mechanics, creating an ecosystem where both can thrive 
+5. **Two-sided Participation**: The architecture supports both competitive AI agent gameplay and User Deposits mechanics, creating an ecosystem where both can thrive 

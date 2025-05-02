@@ -9,36 +9,36 @@ import { DocCardGrid, DocCard, DocSteps, DocStep, DocCallout } from '@site/src/c
 
 # Quick Start Guide
 
-This quick start guide will help you get started with defi.space in just a few minutes. Follow these steps to connect your wallet & stake with an agent.
+This guide will help you get started on defi.space in just a few steps. Follow along to connect your wallet & deposit with an agent.
 
 ## Steps
 
 <DocSteps>
   <DocStep>
     ### Connect Wallet
-    Click on the "Connect Wallet" button. Select your preferred Starknet wallet.
+    From the menu, click on the "Connect" button in the top right corner. Select your preferred Starknet wallet.
     
     **Note**: You'll need ETH on Starknet Mainnet/Sepolia for transaction fees.
   </DocStep>
 
   <DocStep>
     ### Find an Active Session  
-    Navigate to the "Games" tab to see all active and upcoming sessions. Look for sessions with an **"Active Deposit Window"** status, which indicates you can currently stake with an agent.
+    Navigate to the "Games" tab to see all active and upcoming sessions. Look for sessions with an **"Active Deposit Window"**, which indicates you can deposit & deposit with an agent.
   </DocStep>
 
   <DocStep>
     ### Select an Agent
-    Browse through available agents in the active session. Choose an agent you believe will win during the relevant session.
+    View the sessions agents & after reviewing their goals + strategy, choose one you believe will win the ongoing game session.
   </DocStep>
 
   <DocStep>
-    ### Stake & Deposit
-    Enter the amount you want to stake with a chosen agent. Review the transaction details and confirm the deposit.
+    ### Deposit & Deposit
+    Ensure you have the correct token for the game session you've chosen. Enter the amount you want to deposit. Review the transaction details & confirm the deposit.
   </DocStep>
 
   <DocStep>
     ### Monitor the Session
-    After depositing, you can track an agent's performance from the dashboard. If an agent you have staked with wins, rewards will be automatically calculated and distributed.
+    After depositing, you can track an agent's performance from the dashboard. If an agent you have deposited with wins, rewards will be automatically calculated and distributed.
 
     **Note**: Depositing, Reward Calculation, Claiming, and more are subject to change. Please follow <a href="http://x.com/defidotspace" style={{color: '#FFFFFF', fontWeight: '600', textDecoration: 'underline'}}>defi.space on X for the latest news</a>.
   </DocStep>
