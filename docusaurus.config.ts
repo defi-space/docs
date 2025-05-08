@@ -8,6 +8,10 @@ const katex = require("rehype-katex");
 require("dotenv").config();
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+const { ALGOLIA_APP_ID, ALGOLIA_API_KEY, ALGOLIA_INDEX_NAME, ALGOLIA_SITE_VERIFICATION } = process.env;
+if (!ALGOLIA_APP_ID || !ALGOLIA_API_KEY || !ALGOLIA_INDEX_NAME || !ALGOLIA_SITE_VERIFICATION) {
+  throw new Error("Missing Algolia environment variables (ALGOLIA_APP_ID, ALGOLIA_API_KEY, ALGOLIA_INDEX_NAME)");
+}
 
 const config: Config = {
   title: "defi.space | Documentation",
@@ -127,10 +131,10 @@ const config: Config = {
     },
     algolia: {
       // The application ID provided by Algolia
-      appId: process.env.ALGOLIA_APP_ID,
+      appId: ALGOLIA_APP_ID,
       // Public API key: it is safe to commit it
-      apiKey: process.env.ALGOLIA_API_KEY,
-      indexName: process.env.ALGOLIA_INDEX_NAME,
+      apiKey: ALGOLIA_API_KEY,
+      indexName: ALGOLIA_INDEX_NAME,
       // Optional: see doc section below
       contextualSearch: true,
       // Optional: Algolia search parameters
@@ -200,10 +204,10 @@ const config: Config = {
 
   headTags: [
     {
-      tagName: 'meta',
+      tagName: "meta",
       attributes: {
-        name: 'algolia-site-verification',
-        content: 'A7657E086E535A43',
+        name: "algolia-site-verification",
+        content: ALGOLIA_SITE_VERIFICATION,
       },
     },
   ],
