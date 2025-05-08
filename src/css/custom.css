@@ -52,6 +52,11 @@
   --ifm-font-weight-base: 500;
   --ifm-table-of-contents-font-weight: 600;
   --ifm-breadcrumb-size-multiplier: 1;
+  --docsearch-hit-color: #212121 !important;
+  --docsearch-hit-active-color: #212121 !important;
+  --docsearch-hit-background: #000 !important;
+  --docsearch-hits: #000 !important;
+  --docsearch-modal-background: ##222121 !important;
 }
 
 /* Main content styles */
@@ -289,8 +294,8 @@ main {
   color: #efefef !important;
 }
 
-.DocSearch-Hit-path {
-  color: #cdcdcd !important;
+.DocSearch-Hit-color {
+  color: #212121 !important;
 }
 
 @media screen and (min-width: 997px) {
@@ -723,3 +728,4 @@ samp {
 .mermaid .nodeLabel {
   font-size: 10px !important;
 }
+
