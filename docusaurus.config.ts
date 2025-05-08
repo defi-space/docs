@@ -201,16 +201,6 @@ const config: Config = {
       crossorigin: "anonymous",
     },
   ],
-
-  headTags: [
-    {
-      tagName: "meta",
-      attributes: {
-        name: "algolia-site-verification",
-        content: ALGOLIA_SITE_VERIFICATION,
-      },
-    },
-  ],
 };
 
 export default config;
