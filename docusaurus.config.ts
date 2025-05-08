@@ -125,21 +125,21 @@ const config: Config = {
         },
       ],
     },
-    // algolia: {
-    //   // The application ID provided by Algolia
-    //   appId: process.env.ALGOLIA_APP_ID,
-    //   // Public API key: it is safe to commit it
-    //   apiKey: process.env.ALGOLIA_API_KEY,
-    //   indexName: process.env.ALGOLIA_INDEX_NAME,
-    //   // Optional: see doc section below
-    //   contextualSearch: true,
-    //   // Optional: Algolia search parameters
-    //   searchParameters: {},
-    //   // Optional: path for search page that enabled by default (`false` to disable it)
-    //   searchPagePath: 'search',
-    //   // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
-    //   insights: false,
-    // },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: process.env.ALGOLIA_APP_ID,
+      // Public API key: it is safe to commit it
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: process.env.ALGOLIA_INDEX_NAME,
+      // Optional: see doc section below
+      contextualSearch: true,
+      // Optional: Algolia search parameters
+      searchParameters: {},
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+      // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+      insights: false,
+    },
     footer: {
       style: "dark",
       links: [
@@ -195,6 +195,16 @@ const config: Config = {
       integrity:
         "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
       crossorigin: "anonymous",
+    },
+  ],
+
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: 'A7657E086E535A43',
+      },
     },
   ],
 };
