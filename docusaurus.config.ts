@@ -8,9 +8,21 @@ const katex = require("rehype-katex");
 require("dotenv").config();
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-const { ALGOLIA_APP_ID, ALGOLIA_API_KEY, ALGOLIA_INDEX_NAME, ALGOLIA_SITE_VERIFICATION } = process.env;
-if (!ALGOLIA_APP_ID || !ALGOLIA_API_KEY || !ALGOLIA_INDEX_NAME || !ALGOLIA_SITE_VERIFICATION) {
-  throw new Error("Missing Algolia environment variables (ALGOLIA_APP_ID, ALGOLIA_API_KEY, ALGOLIA_INDEX_NAME, ALGOLIA_SITE_VERIFICATION)");
+const {
+  ALGOLIA_APP_ID,
+  ALGOLIA_API_KEY,
+  ALGOLIA_INDEX_NAME,
+  ALGOLIA_SITE_VERIFICATION,
+} = process.env;
+if (
+  !ALGOLIA_APP_ID ||
+  !ALGOLIA_API_KEY ||
+  !ALGOLIA_INDEX_NAME ||
+  !ALGOLIA_SITE_VERIFICATION
+) {
+  throw new Error(
+    "Missing Algolia environment variables (ALGOLIA_APP_ID, ALGOLIA_API_KEY, ALGOLIA_INDEX_NAME, ALGOLIA_SITE_VERIFICATION)",
+  );
 }
 
 const config: Config = {
