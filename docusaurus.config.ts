@@ -7,12 +7,6 @@ const katex = require("rehype-katex");
 
 require("dotenv").config();
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-const { ALGOLIA_APP_ID, ALGOLIA_API_KEY, ALGOLIA_INDEX_NAME } = process.env;
-if (!ALGOLIA_APP_ID || !ALGOLIA_API_KEY || !ALGOLIA_INDEX_NAME) {
-  throw new Error("Missing Algolia environment variables (ALGOLIA_APP_ID, ALGOLIA_API_KEY, ALGOLIA_INDEX_NAME)");
-}
-
 const config: Config = {
   title: "defi.space | Documentation",
   tagline: "Quick Start & Documentation",
@@ -65,7 +59,7 @@ const config: Config = {
           customCss: "./src/css/custom.css",
         },
         googleTagManager: {
-          containerId: process.env.GOOGLE_TAG_MANAGER_ID || "none",
+          containerId: "GTM-WLQDD9SN",
         },
       } satisfies Preset.Options,
     ],
@@ -131,10 +125,10 @@ const config: Config = {
     },
     algolia: {
       // The application ID provided by Algolia
-      appId: ALGOLIA_APP_ID,
+      appId: "I37FUWBD3R",
       // Public API key: it is safe to commit it
-      apiKey: ALGOLIA_API_KEY,
-      indexName: ALGOLIA_INDEX_NAME,
+      apiKey: "24792cf30dc4c802d5639f03c5c12144",
+      indexName: "defi-spaceio",
       // Optional: see doc section below
       contextualSearch: true,
       // Optional: Algolia search parameters
