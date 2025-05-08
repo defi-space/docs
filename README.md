@@ -32,6 +32,12 @@ This command starts a local development server and opens up a browser window. Mo
 bun build
 ```
 
+### Deploy
+
+```bash
+USE_SSH=true bun run deploy
+```
+
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ## Project Structure
