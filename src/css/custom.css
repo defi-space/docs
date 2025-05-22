@@ -17,15 +17,8 @@
 /* Define custom Roboto Slab font from local files */
 @font-face {
   font-family: "Roboto Slab";
-  src: url("/static/fonts/RobotoSlab-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto Slab";
-  src: url("/static/fonts/RobotoSlab-Bold.woff2") format("woff2");
-  font-weight: 700;
+  src: url("/static/fonts/RobotoSlab-VariableFont_wght.ttf") format("ttf");
+  font-weight: 400, 500, 600, 700, 800;
   font-style: normal;
 }
 
