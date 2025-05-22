@@ -14,6 +14,21 @@
   font-style: normal;
 }
 
+/* Define custom Roboto Slab font from local files */
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("/static/fonts/RobotoSlab-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("/static/fonts/RobotoSlab-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -30,7 +45,7 @@
   --ifm-color-primary-lighter: #fafafa;
   --ifm-color-primary-lightest: #ffffff;
   --ifm-code-font-size: 90%;
-  --ifm-font-family-base: "Orbitron", sans-serif;
+  --ifm-font-family-base: "Roboto Slab", "Orbitron", sans-serif;
   --ifm-heading-font-family: "Orbitron", sans-serif;
   --ifm-font-family-monospace: "JetBrains Mono", monospace;
   --ifm-font-size-base: 16px;
@@ -702,11 +717,13 @@ samp {
 }
 
 .p {
+  font-family: var(--ifm-font-family-base);
   font-weight: 500 !important;
 }
 
 .li {
-  font-weight: 600 !important;
+  font-family: var(--ifm-font-family-base);
+  font-weight: 400 !important;
 }
 
 .hide-page {
